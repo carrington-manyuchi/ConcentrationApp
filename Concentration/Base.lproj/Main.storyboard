@@ -22,16 +22,7 @@
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="👻">
-                                            <attributes>
-                                                <color key="NSBackgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="NSColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="60" name="AppleColorEmoji"/>
-                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TCT-ii-s5a"/>
@@ -43,14 +34,7 @@
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="👻">
-                                            <attributes>
-                                                <font key="NSFont" size="50" name="AppleColorEmoji"/>
-                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5bB-qS-8bG"/>
@@ -62,15 +46,7 @@
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="🎃">
-                                            <attributes>
-                                                <font key="NSFont" size="60" name="AppleColorEmoji"/>
-                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Xb-Va-aUU"/>
@@ -82,14 +58,7 @@
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="👻">
-                                            <attributes>
-                                                <font key="NSFont" size="50" name="AppleColorEmoji"/>
-                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kW3-z3-s86"/>
