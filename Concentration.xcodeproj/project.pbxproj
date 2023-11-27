@@ -13,9 +13,6 @@
 		8CC9EA472B108BFE004D456B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC9EA452B108BFE004D456B /* Main.storyboard */; };
 		8CC9EA492B108C00004D456B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC9EA482B108C00004D456B /* Assets.xcassets */; };
 		8CC9EA4C2B108C00004D456B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC9EA4A2B108C00004D456B /* LaunchScreen.storyboard */; };
-		8CC9EA572B108C00004D456B /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC9EA562B108C00004D456B /* ConcentrationTests.swift */; };
-		8CC9EA612B108C00004D456B /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC9EA602B108C00004D456B /* ConcentrationUITests.swift */; };
-		8CC9EA632B108C00004D456B /* ConcentrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC9EA622B108C00004D456B /* ConcentrationUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		8CC9EA4B2B108C00004D456B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CC9EA4D2B108C00004D456B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CC9EA522B108C00004D456B /* ConcentrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CC9EA562B108C00004D456B /* ConcentrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationTests.swift; sourceTree = "<group>"; };
 		8CC9EA5C2B108C00004D456B /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CC9EA602B108C00004D456B /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
-		8CC9EA622B108C00004D456B /* ConcentrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				8CC9EA3E2B108BFE004D456B /* Concentration */,
-				8CC9EA552B108C00004D456B /* ConcentrationTests */,
-				8CC9EA5F2B108C00004D456B /* ConcentrationUITests */,
 				8CC9EA3D2B108BFE004D456B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +91,23 @@
 		8CC9EA3E2B108BFE004D456B /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				8CC9EA3F2B108BFE004D456B /* AppDelegate.swift */,
-				8CC9EA412B108BFE004D456B /* SceneDelegate.swift */,
+				8CC9EA6F2B108FD9004D456B /* Suporting */,
 				8CC9EA432B108BFE004D456B /* ViewController.swift */,
 				8CC9EA452B108BFE004D456B /* Main.storyboard */,
-				8CC9EA482B108C00004D456B /* Assets.xcassets */,
-				8CC9EA4A2B108C00004D456B /* LaunchScreen.storyboard */,
 				8CC9EA4D2B108C00004D456B /* Info.plist */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
 		};
-		8CC9EA552B108C00004D456B /* ConcentrationTests */ = {
+		8CC9EA6F2B108FD9004D456B /* Suporting */ = {
 			isa = PBXGroup;
 			children = (
-				8CC9EA562B108C00004D456B /* ConcentrationTests.swift */,
+				8CC9EA4A2B108C00004D456B /* LaunchScreen.storyboard */,
+				8CC9EA3F2B108BFE004D456B /* AppDelegate.swift */,
+				8CC9EA412B108BFE004D456B /* SceneDelegate.swift */,
+				8CC9EA482B108C00004D456B /* Assets.xcassets */,
 			);
-			path = ConcentrationTests;
-			sourceTree = "<group>";
-		};
-		8CC9EA5F2B108C00004D456B /* ConcentrationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8CC9EA602B108C00004D456B /* ConcentrationUITests.swift */,
-				8CC9EA622B108C00004D456B /* ConcentrationUITestsLaunchTests.swift */,
-			);
-			path = ConcentrationUITests;
+			path = Suporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CC9EA572B108C00004D456B /* ConcentrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CC9EA632B108C00004D456B /* ConcentrationUITestsLaunchTests.swift in Sources */,
-				8CC9EA612B108C00004D456B /* ConcentrationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
