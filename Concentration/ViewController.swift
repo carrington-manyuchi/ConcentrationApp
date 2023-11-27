@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var flipCount = 0 {
+        //property observers - to keep the UI in sync with instance variables of our class
         didSet {
             flipCounter.text = " Flips: \(flipCount)"
         }
